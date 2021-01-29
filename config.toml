@@ -24,22 +24,40 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
-    identifier="blog"
-    name = "Blog"
-    url  = "/blog/"
+    identifier = "about"
+    name = "About"
+    url  = "/about/"
     weight = 2
 
 [[menu.main]]
-    identifier = "faq"
-    name = "FAQ"
-    url  = "/faq/"
+    identifier = "Members"
+    name = "Members"
+    url  = "/members/"
     weight = 3
+
+[[menu.main]]
+    identifier = "Research"
+    name = "Research"
+    url  = "/research/"
+    weight = 4
+
+[[menu.main]]
+    identifier = "Courses"
+    name = "Courses"
+    url  = "/course/"
+    weight = 5
+
+[[menu.main]]
+    identifier="blog"
+    name = "Recent News"
+    url  = "/recent/"
+    weight = 6
 
 [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+    weight = 7
 
 # Top bar social links menu
 
@@ -83,8 +101,8 @@ paginate = 10
     enableGoogleMaps = true
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
-    latitude = "-12.043333"
-    longitude = "-77.028333"
+    latitude = "37.456664"
+    longitude = "126.951954"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
@@ -106,21 +124,18 @@ paginate = 10
     formspree_action = "https://formspree.io/sample/of/endpoint"
     contact_form_ajax = false
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>SPatial Informatics & Systems Lab - Remote Sensing Lab.</p>"
+    copyright = "Copyright (c) 2021, SPINS-RS Lab; All Rights Reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    address = """<p class="text-uppercase"><strong>SPINS-RS Lab Ltd.</strong>
+        <br>Bldg. 35 Rm. 318
+        <br>1 Gwanak-gu, Gwanak-ro
+        <br>Seoul, South Korea
       </p>
       """
 
@@ -129,7 +144,7 @@ paginate = 10
 
 # Enable or disable top bar with social icons
 [params.topbar]
-    enable = true
+    enable = false
     text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
       <p class="hidden-md hidden-lg"><a href="#" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="#" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
@@ -163,7 +178,7 @@ paginate = 10
     subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
 
 [params.see_more]
-    enable = true
+    enable = false
     icon = "far fa-file-alt"
     title = "Do you want to see more?"
     subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
@@ -171,7 +186,7 @@ paginate = 10
     link_text = "Check other homepages"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
