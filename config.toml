@@ -48,7 +48,7 @@ paginate = 10
     weight = 5
 
 [[menu.main]]
-    identifier="blog"
+    identifier="news"
     name = "Recent News"
     url  = "/recent/"
     weight = 6
@@ -61,10 +61,10 @@ paginate = 10
 
 
 [params]
-    viewMorePostLink = "/blog/"
+    viewMorePostLink = "/news/"
     author = "SPINS"
     defaultKeywords = ["devows", "hugo", "go"]
-    mainSections = ["blog"]
+    mainSections = ["news"]
     defaultDescription = "Site template made by devcows using hugo"
 
     # Social media
@@ -114,7 +114,7 @@ paginate = 10
       """
 
 [Permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    news = "/news/:year/:month/:day/:filename/"
 
 # Enable or disable top bar with social icons
 [params.topbar]
