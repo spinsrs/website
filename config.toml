@@ -48,7 +48,7 @@ paginate = 10
     weight = 5
 
 [[menu.main]]
-    identifier="news"
+    identifier="News"
     name = "Recent News"
     url  = "/news/"
     weight = 6
@@ -58,6 +58,14 @@ paginate = 10
     name = "Contact"
     url  = "/contact/"
     weight = 7
+
+    [[menu.main]]
+        identifier = "test2"
+        name = "test2"
+        url  = "/test2/"
+        weight = 8
+
+
 
 
 [params]
