@@ -59,14 +59,6 @@ paginate = 10
     url  = "/contact/"
     weight = 7
 
-    [[menu.main]]
-        identifier = "test2"
-        name = "test2"
-        url  = "/test2/"
-        weight = 8
-
-
-
 
 [params]
     viewMorePostLink = "/news/"
